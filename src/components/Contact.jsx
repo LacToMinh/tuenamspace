@@ -1,73 +1,118 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
   });
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể.');
+    console.log("Form submitted:", formData);
+    alert("Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể.");
     setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      subject: '',
-      message: ''
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
     });
   };
 
   const contactInfo = [
     {
       icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+          />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+          />
         </svg>
       ),
       title: "Địa chỉ",
-      details: ["B1-01, N1, KĐT Thịnh Gia", "TP. Hồ Chí Minh, Việt Nam"]
+      details: ["B1-01, N1, KĐT Thịnh Gia", "TP. Hồ Chí Minh, Việt Nam"],
     },
     {
       icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+          />
         </svg>
       ),
       title: "Điện thoại",
-      details: ["0869984849", ""]
+      details: ["0869984849", ""],
     },
     {
       icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+          />
         </svg>
       ),
       title: "Email",
-      details: ["tuenambinhduong@gmail.com", ""]
+      details: ["tuenambinhduong@gmail.com", ""],
     },
     {
       icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
         </svg>
       ),
       title: "Giờ làm việc",
-      details: ["Thứ 2 - Thứ 7: 8:00 - 22:00", "Chủ nhật: 9:00 - 11:00"]
-    }
+      details: ["Thứ 2 - Thứ 7: 8:00 - 22:00", "Chủ nhật: 9:00 - 11:00"],
+    },
   ];
 
   return (
@@ -89,11 +134,14 @@ const Contact = () => {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               Gửi tin nhắn cho chúng tôi
             </h3>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Họ và tên *
                   </label>
                   <input
@@ -107,9 +155,12 @@ const Contact = () => {
                     placeholder="Nhập họ và tên"
                   />
                 </div>
-                
+
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Email *
                   </label>
                   <input
@@ -127,7 +178,10 @@ const Contact = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="phone"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Số điện thoại
                   </label>
                   <input
@@ -140,9 +194,12 @@ const Contact = () => {
                     placeholder="Nhập số điện thoại"
                   />
                 </div>
-                
+
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="subject"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Chủ đề
                   </label>
                   <select
@@ -163,7 +220,10 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Tin nhắn *
                 </label>
                 <textarea
@@ -182,7 +242,12 @@ const Contact = () => {
                 type="button"
                 onClick={() => {
                   const message = `Tên: ${formData.name}\nEmail: ${formData.email}\nSĐT: ${formData.phone}\nChủ đề: ${formData.subject}\nTin nhắn: ${formData.message}`;
-                  window.open(`https://zalo.me/0123456789?text=${encodeURIComponent(message)}`, '_blank');
+                  window.open(
+                    `https://zalo.me/0369984849?text=${encodeURIComponent(
+                      message
+                    )}`,
+                    "_blank"
+                  );
                 }}
                 className="w-full bg-blue-600 text-white py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg"
               >
@@ -198,8 +263,8 @@ const Contact = () => {
                 Thông tin liên hệ
               </h3>
               <p className="text-gray-600 mb-8">
-                Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn. 
-                Hãy liên hệ với chúng tôi qua các kênh dưới đây.
+                Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn. Hãy liên hệ với
+                chúng tôi qua các kênh dưới đây.
               </p>
             </div>
 
@@ -224,16 +289,43 @@ const Contact = () => {
             </div>
 
             {/* Map Placeholder */}
-            <div className="bg-gray-200 rounded-xl h-64 flex items-center justify-center">
-              <div className="text-center">
-                <svg className="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                <p className="text-gray-500">Bản đồ vị trí</p>
-                <p className="text-sm text-gray-400">123 Đường ABC, Quận 1, TP.HCM</p>
-              </div>
-            </div>
+            <div className="bg-gray-200 rounded-xl flex items-center justify-center">
+  <div className="text-center">
+    {/* <svg
+      className="w-16 h-16 text-gray-400 mx-auto mb-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+      />
+    </svg> */}
+    {/* <p className="text-gray-500">Bản đồ vị trí</p>
+    <p className="text-sm text-gray-400">
+      123 Đường ABC, Quận 1, TP.HCM
+    </p> */}
+    <div className="mt-1 w-full max-w-xs mx-auto">
+      {/* Nhúng Google Map vào đây */}
+      <iframe
+        className="w-full h-full rounded-lg"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62654.99466179825!2d106.60991287409463!3d11.043337880196194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cd7497ee1151%3A0x8d2ba4900f2340ea!2zVHJ1bmcgdMOibSBk4bqheSBo4buNYyB2w6AgbHV54buHbiB0aGk!5e0!3m2!1svi!2s!4v1761307251369!5m2!1svi!2s"
+        loading="lazy"
+        style={{ border: 'none', height: '100%' }}
+      ></iframe>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </div>
@@ -242,4 +334,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
