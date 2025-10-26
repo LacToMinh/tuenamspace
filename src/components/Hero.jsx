@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Tìm phòng học
-                <span className="text-blue-600 block">hoàn hảo</span>
+                <span className="text-[#fac000] block">hoàn hảo</span>
                 cho bạn
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">

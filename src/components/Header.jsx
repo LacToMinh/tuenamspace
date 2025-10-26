@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
-        ? 'bg-white/80 backdrop-blur-md shadow-lg border-b border-white/20' 
+        ? 'bg-white/90 backdrop-blur-md shadow-lg border-b border-white/20' 
         : 'bg-white shadow-lg'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,25 +24,25 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-blue-600">
-                <span className="text-blue-800">Tuenam</span>Space
+              <h1 className="text-2xl font-bold text-[#fab700]">
+                <span className="text-[#001F5D]">Tuenam</span>Space
               </h1>
-              <p className="text-xs text-gray-500">Cho thuê phòng học</p>
+              <p className="text-[13px] text-gray-500">Cho thuê phòng học</p>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            <a href="#home" className="text-gray-700 text-[17px] hover:text-blue-600 font-semibold transition-colors">
               Trang chủ
             </a>
-            <a href="#rooms" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            <a href="#rooms" className="text-gray-700 text-[17px] hover:text-blue-600 fontfont-semibold transition-colors">
               Phòng học
             </a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            <a href="#about" className="text-gray-700 text-[17px] hover:text-blue-600 fontfont-semibold transition-colors">
               Về chúng tôi
             </a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            <a href="#contact" className="text-gray-700 text-[17px] hover:text-blue-600 fofont-semibold transition-colors">
               Liên hệ
             </a>
           </nav>
@@ -53,7 +53,7 @@ const Header = () => {
               href="https://zalo.me/0369984849?text=Tôi muốn tư vấn về dịch vụ cho thuê phòng học"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#001F5D] text-[#FBCD02] px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+              className="bg-[#001F5D] text-[#FBCD02] px-6 py-[7px] pb-[10px] rounded-lg hover:bg-blue-900 transition-colors font-medium"
             >
               Đặt phòng ngay
             </a>
