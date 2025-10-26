@@ -34,12 +34,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
+  background: #FBCD02;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8;
+  background: #FBCD02;
 }
 
 /* Focus styles */
@@ -47,6 +47,6 @@ button:focus,
 input:focus,
 select:focus,
 textarea:focus {
-  outline: 2px solid #3b82f6;
-  outline-offset: 2px;
+  outline: 0.5px solid #3b82f6;
+  outline-offset: 1px;
 }

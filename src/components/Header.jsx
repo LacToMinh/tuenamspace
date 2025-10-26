@@ -53,7 +53,7 @@ const Header = () => {
               href="https://zalo.me/0369984849?text=Tôi muốn tư vấn về dịch vụ cho thuê phòng học"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+              className="bg-[#001F5D] text-[#FBCD02] px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
             >
               Đặt phòng ngay
             </a>
@@ -96,7 +96,7 @@ const Header = () => {
                 href="https://zalo.me/0369984849?text=Tôi muốn tư vấn về dịch vụ cho thuê phòng học"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-left px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                className="block w-full text-center px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
               >
                 Đặt phòng ngay
               </a>
