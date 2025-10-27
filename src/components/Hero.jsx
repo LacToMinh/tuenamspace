@@ -101,10 +101,10 @@ const Hero = () => {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex-col">
+            <div className="flex flex-col gap-4 sm:flex-row">
               <a
                 href="#rooms"
-                className="bg-[#FBCD02] mr-2 text-black px-8 py-3 rounded-lg hover:bg-blue-700 hover:text-white transition-colors font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 text-center"
+                className="bg-[#FBCD02] text-black px-8 py-3 rounded-lg hover:bg-blue-700 hover:text-white transition-colors font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 text-center"
               >
                 <span className="!p-0 !m-0">Xem phòng học</span>
               </a>
