@@ -73,7 +73,7 @@ const Contact = () => {
         </svg>
       ),
       title: "Điện thoại",
-      details: ["0869984849", ""],
+      details: ["0369 984 849", ""],
     },
     {
       icon: (
@@ -290,42 +290,17 @@ const Contact = () => {
 
             {/* Map Placeholder */}
             <div className="bg-gray-200 rounded-xl flex items-center justify-center">
-  <div className="text-center">
-    {/* <svg
-      className="w-16 h-16 text-gray-400 mx-auto mb-4"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-      />
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-      />
-    </svg> */}
-    {/* <p className="text-gray-500">Bản đồ vị trí</p>
-    <p className="text-sm text-gray-400">
-      123 Đường ABC, Quận 1, TP.HCM
-    </p> */}
-    <div className="mt-1 w-full max-w-xs mx-auto">
-      {/* Nhúng Google Map vào đây */}
-      <iframe
-        className="w-full h-full rounded-lg"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62654.99466179825!2d106.60991287409463!3d11.043337880196194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cd7497ee1151%3A0x8d2ba4900f2340ea!2zVHJ1bmcgdMOibSBk4bqheSBo4buNYyB2w6AgbHV54buHbiB0aGk!5e0!3m2!1svi!2s!4v1761307251369!5m2!1svi!2s"
-        loading="lazy"
-        style={{ border: 'none', height: '100%' }}
-      ></iframe>
-    </div>
-  </div>
-</div>
-
+              <div className="text-center">
+                <div className="mt-1 w-full max-w-xs mx-auto">
+                  <iframe
+                    className="w-full h-full rounded-lg"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62654.99466179825!2d106.60991287409463!3d11.043337880196194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cd7497ee1151%3A0x8d2ba4900f2340ea!2zVHJ1bmcgdMOibSBk4bqheSBo4buNYyB2w6AgbHV54buHbiB0aGk!5e0!3m2!1svi!2s!4v1761307251369!5m2!1svi!2s"
+                    loading="lazy"
+                    style={{ border: "none", height: "100%" }}
+                  ></iframe>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

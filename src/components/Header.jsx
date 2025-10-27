@@ -24,8 +24,8 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-[#fab700]">
-                <span className="text-[#001F5D]">Tuenam</span>Space
+              <h1 className="text-2xl font-bold text-[#001F5D]">
+                <span className="text-black bg-[#FCC901] px-[4px] rounded-sm">Tuenam</span>Space
               </h1>
               <p className="text-[13px] text-gray-500">Cho thuê phòng học</p>
             </div>
@@ -96,7 +96,7 @@ const Header = () => {
                 href="https://zalo.me/0369984849?text=Tôi muốn tư vấn về dịch vụ cho thuê phòng học"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                className="block w-full text-center px-3 py-2 bg-[#FCC901] text-black rounded-lg hover:bg-blue-700 transition-colors font-semibold"
               >
                 Đặt phòng ngay
               </a>

@@ -66,7 +66,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
           {/* Left Content */}
           <div className="space-y-6">
-            <h3 className="text-3xl font-bold text-gray-900">
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
               Không gian học tập hiện đại
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -120,7 +120,7 @@ const About = () => {
           {/* Right Content - Image */}
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+              src="banner_so_sao.jpg"
               alt="Modern classroom interior"
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />
@@ -172,7 +172,7 @@ const About = () => {
               Xem phòng học
             </a>
             <a 
-              href="https://zalo.me/0123456789?text=Tôi muốn tư vấn về dịch vụ cho thuê phòng học"
+              href="https://zalo.me/0369984849?text=Tôi muốn tư vấn về dịch vụ cho thuê phòng học"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-600 transition-colors font-semibold text-lg text-center"

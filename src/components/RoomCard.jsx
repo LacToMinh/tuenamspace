@@ -148,7 +148,7 @@ const RoomCard = ({ room }) => {
         {/* Action Buttons */}
         <div className="flex space-x-3">
           <a 
-            href={`https://zalo.me/0123456789?text=Tôi muốn đặt phòng: ${room.name} - ${room.location} - Giá: ${formatPrice(room.price)}/giờ`}
+            href={`https://zalo.me/0369984849?text=Tôi muốn đặt phòng: ${room.name} - ${room.location} - Giá: ${formatPrice(room.price)}/giờ`}
             target="_blank"
             rel="noopener noreferrer"
             className={`flex-1 text-center py-3 rounded-lg transition-colors font-medium ${

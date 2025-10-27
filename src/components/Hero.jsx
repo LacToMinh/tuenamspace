@@ -25,9 +25,9 @@ const Hero = () => {
             {/* Features */}
             <div className="grid grid-cols-2 gap-4">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 bg-[#ffdd53] rounded-full flex items-center justify-center">
                   <svg
-                    className="w-4 h-4 text-blue-600"
+                    className="w-4 h-4 text-black"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -35,7 +35,7 @@ const Hero = () => {
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth={2}
+                      strokeWidth={4}
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -45,9 +45,9 @@ const Hero = () => {
                 </span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 bg-[#ffdd53] rounded-full flex items-center justify-center">
                   <svg
-                    className="w-4 h-4 text-blue-600"
+                    className="w-4 h-4 text-black"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -55,7 +55,7 @@ const Hero = () => {
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth={2}
+                      strokeWidth={4}
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -63,9 +63,9 @@ const Hero = () => {
                 <span className="text-gray-700 font-medium">Máy chiếu</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 bg-[#ffdd53] rounded-full flex items-center justify-center">
                   <svg
-                    className="w-4 h-4 text-blue-600"
+                    className="w-4 h-4 text-black"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -73,7 +73,7 @@ const Hero = () => {
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth={2}
+                      strokeWidth={4}
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -81,9 +81,9 @@ const Hero = () => {
                 <span className="text-gray-700 font-medium">Máy lạnh</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 bg-[#ffdd53] rounded-full flex items-center justify-center">
                   <svg
-                    className="w-4 h-4 text-blue-600"
+                    className="w-4 h-4 text-black"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -91,7 +91,7 @@ const Hero = () => {
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth={2}
+                      strokeWidth={4}
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -109,7 +109,7 @@ const Hero = () => {
                 <span className="!p-0 !m-0">Xem phòng học</span>
               </a>
               <a
-                href="https://zalo.me/0123456789?text=Tôi muốn tư vấn về dịch vụ cho thuê phòng học"
+                href="https://zalo.me/0369984849?text=Tôi muốn tư vấn về dịch vụ cho thuê phòng học"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-blue-700 text-blue-600 px-8 py-3 rounded-lg hover:bg-[#FBCD02] hover:text-black transition-colors font-semibold text-lg text-center"
@@ -121,15 +121,15 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#E24C11]">50+</div>
+                <div className="text-3xl font-bold text-[#001F5D]"><span>50</span><span className="text-green-500">+</span></div>
                 <div className="text-gray-600">Phòng học</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#E24C11]">1000+</div>
+                <div className="text-3xl font-bold text-[#001F5D]"><span>1000</span><span className="text-red-500">+</span></div>
                 <div className="text-gray-600">Học viên</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#E24C11]">4.8★</div>
+                <div className="text-3xl font-bold text-[#001F5D]"><span>4.8</span><span className="text-[#fcac01]">★</span></div>
                 <div className="text-gray-600">Đánh giá</div>
               </div>
             </div>
@@ -139,14 +139,14 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                src="banner_thinh_gia_2.jpg"
                 alt="Modern classroom"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
             </div>
 
             {/* Floating Cards */}
-            <div className="absolute -top-4 -left-4 bg-white rounded-xl shadow-lg p-4 z-20">
+            <div className="absolute -top-4 -left-4 bg-white rounded-xl shadow-lg p-3 z-20">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                   <svg
@@ -164,13 +164,13 @@ const Hero = () => {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900">Mở cửa 24/7</div>
+                  <div className="font-semibold text-gray-900">Mở cửa 8h00 - 21h00</div>
                   <div className="text-sm text-gray-600">Học tập mọi lúc</div>
                 </div>
               </div>
             </div>
 
-            <div className="absolute -bottom-4 -right-4 bg-white rounded-xl shadow-lg p-4 z-20">
+            <div className="absolute -bottom-4 -right-4 bg-white rounded-xl shadow-lg p-3 z-20">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
                   <svg
@@ -195,7 +195,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">
-                    Vị trí trung tâm
+                    Vị trí thuận tiện
                   </div>
                   <div className="text-sm text-gray-600">Dễ dàng di chuyển</div>
                 </div>
