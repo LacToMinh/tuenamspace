@@ -70,7 +70,7 @@ const About = () => {
               Không gian học tập hiện đại
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              EduSpace là hệ thống phòng học hiện đại được thiết kế đặc biệt 
+              TuenamSpace là hệ thống phòng học hiện đại được thiết kế đặc biệt 
               để đáp ứng mọi nhu cầu học tập. Từ phòng học cá nhân yên tĩnh 
               đến phòng hội nghị lớn với sức chứa 50 người.
             </p>
