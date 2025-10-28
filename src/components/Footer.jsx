@@ -46,7 +46,7 @@ const Footer = () => {
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
               </a>
-              <a
+              {/* <a
                 href="https://zalo.me/0123456789"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -59,6 +59,15 @@ const Footer = () => {
                 >
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                 </svg>
+              </a> */}
+              <a
+                href="https://zalo.me/0369984849"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="w-[27px] h-[27px] flex items-center justify-center bg-gray-600 text-white font-bold rounded-full shadow-md hover:bg-blue-600 transition">
+                  Z
+                </span>
               </a>
             </div>
           </div>
@@ -239,7 +248,9 @@ const Footer = () => {
                     d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span className="text-sm text-gray-300">tuenambinhduong@gmail.com</span>
+                <span className="text-sm text-gray-300">
+                  tuenambinhduong@gmail.com
+                </span>
               </div>
             </div>
           </div>
@@ -254,7 +265,9 @@ const Footer = () => {
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <span className="text-gray-400 text-sm">
                 Được phát triển bởi ❤️{" "}
-                <span className="text-[#FCC901] font-semibold">Lạc Tô Minh</span>
+                <span className="text-[#FCC901] font-semibold">
+                  Bùi Nguyễn Ngọc Linh
+                </span>
               </span>
             </div>
           </div>

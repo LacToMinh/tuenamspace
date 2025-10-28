@@ -16,7 +16,7 @@ export const rooms = [
       "WiFi",
     ],
     images: [
-      "so_sao_1.jpg",
+      "so_sao_7.jpg",
       "",
     ],
     location: "Cơ sở Sở Sao",
@@ -138,7 +138,7 @@ export const rooms = [
     airConditioners: 1,
     amenities: ["1 máy lạnh", "Máy chiếu HD", "WiFi", "Ghế VIP"],
     images: [
-      "thinh_gia_4.jpg",
+      "thinh_gia_7.jpg",
       "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     ],
     location: "Cơ sở Thịnh Gia",

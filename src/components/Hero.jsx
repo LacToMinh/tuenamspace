@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative bg-gradient-to-br from-blue-50 to-indigo-100 py-20"
+      className="relative bg-gradient-to-br from-blue-50 to-indigo-100 py-16"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -117,22 +117,6 @@ const Hero = () => {
                 Liên hệ tư vấn
               </a>
             </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-[#001F5D]"><span>50</span><span className="text-green-500">+</span></div>
-                <div className="text-gray-600">Phòng học</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-[#001F5D]"><span>1000</span><span className="text-red-500">+</span></div>
-                <div className="text-gray-600">Học viên</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-[#001F5D]"><span>4.8</span><span className="text-[#fcac01]">★</span></div>
-                <div className="text-gray-600">Đánh giá</div>
-              </div>
-            </div>
           </div>
 
           {/* Right Content - Image */}
@@ -141,7 +125,7 @@ const Hero = () => {
               <img
                 src="banner_thinh_gia_2.jpg"
                 alt="Modern classroom"
-                className="rounded-2xl shadow-2xl w-full h-96 object-cover"
+                className="rounded-2xl shadow-2xl w-full h-100 object-cover"
               />
             </div>
 
@@ -164,7 +148,9 @@ const Hero = () => {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900">Mở cửa 8h00 - 21h00</div>
+                  <div className="font-semibold text-gray-900">
+                    Mở cửa 8h00 - 21h00
+                  </div>
                   <div className="text-sm text-gray-600">Học tập mọi lúc</div>
                 </div>
               </div>
@@ -202,6 +188,31 @@ const Hero = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Stats */}
+      <div className="w-full flex gap-28 pt-8 border-t border-gray-200 items-center justify-center">
+        <div className="text-center">
+          <div className="text-3xl font-bold text-[#001F5D]">
+            <span>50</span>
+            <span className="text-green-500">+</span>
+          </div>
+          <div className="text-gray-600">Phòng học</div>
+        </div>
+        <div className="text-center">
+          <div className="text-3xl font-bold text-[#001F5D]">
+            <span>1000</span>
+            <span className="text-red-500">+</span>
+          </div>
+          <div className="text-gray-600">Học viên</div>
+        </div>
+        <div className="text-center">
+          <div className="text-3xl font-bold text-[#001F5D]">
+            <span>4.8</span>
+            <span className="text-[#fcac01]">★</span>
+          </div>
+          <div className="text-gray-600">Đánh giá</div>
         </div>
       </div>
     </section>
