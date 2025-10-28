@@ -104,7 +104,7 @@ const Hero = () => {
             <div className="flex flex-col gap-4 sm:flex-row">
               <a
                 href="#rooms"
-                className="bg-[#FBCD02] text-black px-8 py-3 rounded-lg hover:bg-blue-700 hover:text-white transition-colors font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 text-center"
+                className="bg-blue-800 text-white px-8 py-3 rounded-lg hover:bg-[#FBCD02] hover:text-black  transition-colors font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 text-center"
               >
                 <span className="!p-0 !m-0">Xem phòng học</span>
               </a>
@@ -112,7 +112,7 @@ const Hero = () => {
                 href="https://zalo.me/0369984849?text=Tôi muốn tư vấn về dịch vụ cho thuê phòng học"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-blue-700 text-blue-600 px-8 py-3 rounded-lg hover:bg-[#FBCD02] hover:text-black transition-colors font-semibold text-lg text-center"
+                className="border-2 border-[#fbc102] text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-800 hover:border-blue-800 hover:text-white transition-colors font-semibold text-lg text-center"
               >
                 Liên hệ tư vấn
               </a>

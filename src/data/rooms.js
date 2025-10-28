@@ -146,6 +146,74 @@ export const rooms = [
     rating: 4.8,
     reviews: 28,
   },
+  {
+    id: 8,
+    name: "Phòng họp hội nghị - 1 máy lạnh",
+    description:
+      "Phòng học lớn với 2 máy lạnh, phù hợp cho thuyết trình và hội nghị",
+    price: 70000,
+    capacity: 12,
+    airConditioners: 1,
+    amenities: ["1 máy lạnh", "Máy chiếu HD", "WiFi", "Ghế VIP"],
+    images: [
+      "so_sao_6.jpg",
+      "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    ],
+    location: "Cơ sở Sở Sao",
+    available: true,
+    rating: 4.8,
+    reviews: 28,
+  },
+  {
+    id: 9,
+    name: "Phòng học nhóm vừa - 1 máy lạnh",
+    description:
+      "Không gian yên tĩnh với 1 máy lạnh và ánh sáng tự nhiên, lý tưởng cho việc tự học",
+    price: 70000,
+    capacity: 30,
+    airConditioners: 1,
+    amenities: [
+      "1 máy lạnh",
+      "2 máy lạnh",
+      "Ánh sáng tự nhiên",
+      "WiFi",
+      "Ghế đọc sách",
+      "Kệ sách",
+    ],
+    images: [
+      "so_sao_5.jpg",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    ],
+    location: "Cơ sở Sở Sao",
+    available: true,
+    rating: 4.7,
+    reviews: 15,
+  },
+  {
+    id: 10,
+    name: "Phòng học nhóm vừa - 1 máy lạnh",
+    description:
+      "Không gian yên tĩnh với 1 máy lạnh và ánh sáng tự nhiên, lý tưởng cho việc tự học",
+    price: 70000,
+    capacity: 30,
+    airConditioners: 1,
+    amenities: [
+      "1 máy lạnh",
+      "2 máy lạnh",
+      "Ánh sáng tự nhiên",
+      "WiFi",
+      "Ghế đọc sách",
+      "Kệ sách",
+    ],
+    images: [
+      "so_sao_4.jpg",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    ],
+    location: "Cơ sở Sở Sao",
+    available: true,
+    rating: 4.7,
+    reviews: 15,
+  },
 ];
 
 export const amenities = [
@@ -155,7 +223,7 @@ export const amenities = [
   "Bảng thông minh",
   "WiFi",
   "Ghế êm",
-  "Bàn học cá nhân",
+  // "Bàn học cá nhân",
   "Máy tính",
   "Ánh sáng tự nhiên",
 ];
