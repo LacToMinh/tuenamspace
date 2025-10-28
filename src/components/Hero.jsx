@@ -192,22 +192,22 @@ const Hero = () => {
       </div>
 
       {/* Stats */}
-      <div className="w-full flex gap-28 pt-8 border-t border-gray-200 items-center justify-center">
-        <div className="text-center">
+      <div className="w-full flex flex-wrap justify-center items-center gap-8 md:gap-20 lg:gap-28 px-4 pt-8 border-t border-gray-200">
+        <div className="text-center min-w-[100px]">
           <div className="text-3xl font-bold text-[#001F5D]">
             <span>50</span>
             <span className="text-green-500">+</span>
           </div>
           <div className="text-gray-600">Phòng học</div>
         </div>
-        <div className="text-center">
+        <div className="text-center min-w-[100px]">
           <div className="text-3xl font-bold text-[#001F5D]">
             <span>1000</span>
             <span className="text-red-500">+</span>
           </div>
           <div className="text-gray-600">Học viên</div>
         </div>
-        <div className="text-center">
+        <div className="text-center min-w-[100px]">
           <div className="text-3xl font-bold text-[#001F5D]">
             <span>4.8</span>
             <span className="text-[#fcac01]">★</span>
